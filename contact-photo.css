@@ -1,0 +1,5 @@
+/* Personal photo in the contact panel; existing section layout stays intact. */
+.contact-photo{border:9px solid #fff;box-shadow:0 16px 38px rgba(35,29,47,.22);background:#fff;opacity:1;transform:rotate(5deg)}
+.contact-photo:before,.contact-photo:after{display:none}
+.contact-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 48%;border-radius:50%}
+.contact-photo i{right:-5px;top:10px;width:35px;height:35px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 4px 12px rgba(35,29,47,.2);z-index:1}
